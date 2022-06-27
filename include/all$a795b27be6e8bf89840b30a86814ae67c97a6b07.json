@@ -1,0 +1,3479 @@
+{
+    "packages": {
+        "laravel/nova": {
+            "v0.1.0": {
+                "name": "laravel/nova",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "359ae78eac270f5051b4e38d52bd95615060681f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-359ae78eac270f5051b4e38d52bd95615060681f-zip-c960df.tar",
+                    "reference": "359ae78eac270f5051b4e38d52bd95615060681f",
+                    "shasum": "a1e525cf50940a66f256c5cc394452cd969e9af2"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:03:24+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/359ae78eac270f5051b4e38d52bd95615060681f/?at=releases/2"
+                }
+            },
+            "v0.1.1": {
+                "name": "laravel/nova",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "0a7bb5a669f05b2b424bb026c037c324e937ada8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-0a7bb5a669f05b2b424bb026c037c324e937ada8-zip-a08df4.tar",
+                    "reference": "0a7bb5a669f05b2b424bb026c037c324e937ada8",
+                    "shasum": "188178daee4d8051a383d0716197a288d50cf25f"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:04:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/0a7bb5a669f05b2b424bb026c037c324e937ada8/?at=releases/3"
+                }
+            },
+            "v1.0.0": {
+                "name": "laravel/nova",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "836cb0bb86ec5a2e257af64a9c662edabc5df35f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-836cb0bb86ec5a2e257af64a9c662edabc5df35f-zip-061f1e.tar",
+                    "reference": "836cb0bb86ec5a2e257af64a9c662edabc5df35f",
+                    "shasum": "3fd66ff91b1eb40f5ecfab3f043acaa18ae05fa4"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:04:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/836cb0bb86ec5a2e257af64a9c662edabc5df35f/?at=releases/4"
+                }
+            },
+            "v1.0.1": {
+                "name": "laravel/nova",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "f07e213f48b4e12e7a4e99cded443f147899e918"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-f07e213f48b4e12e7a4e99cded443f147899e918-zip-f4c1d5.tar",
+                    "reference": "f07e213f48b4e12e7a4e99cded443f147899e918",
+                    "shasum": "b45e2f3b9c62d53be9fadac7cac59c3e6bd950b4"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:04:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/f07e213f48b4e12e7a4e99cded443f147899e918/?at=releases/5"
+                }
+            },
+            "v1.0.10": {
+                "name": "laravel/nova",
+                "version": "v1.0.10",
+                "version_normalized": "1.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "5699ffce65ce02ed57ae3ff05e78e8bbb409afbf"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-5699ffce65ce02ed57ae3ff05e78e8bbb409afbf-zip-4fd4c6.tar",
+                    "reference": "5699ffce65ce02ed57ae3ff05e78e8bbb409afbf",
+                    "shasum": "e228ce10c794a8e51d27f496f0177f6aeaa7c934"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:07:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/5699ffce65ce02ed57ae3ff05e78e8bbb409afbf/?at=releases/14"
+                }
+            },
+            "v1.0.11": {
+                "name": "laravel/nova",
+                "version": "v1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "2216a00dea19aea71b081529b820090160e7b75e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-2216a00dea19aea71b081529b820090160e7b75e-zip-836008.tar",
+                    "reference": "2216a00dea19aea71b081529b820090160e7b75e",
+                    "shasum": "c9f1a2f51e27259747ec6d497e582f2249e3884e"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:07:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/2216a00dea19aea71b081529b820090160e7b75e/?at=releases/15"
+                }
+            },
+            "v1.0.12": {
+                "name": "laravel/nova",
+                "version": "v1.0.12",
+                "version_normalized": "1.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "b6cec0edaf9e1ab56c42295e12d5b21d77fe2bf6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-b6cec0edaf9e1ab56c42295e12d5b21d77fe2bf6-zip-613b84.tar",
+                    "reference": "b6cec0edaf9e1ab56c42295e12d5b21d77fe2bf6",
+                    "shasum": "f8c29c2f57e2e59b1176b2ad3c0e2b65a57e8a5b"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:08:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/b6cec0edaf9e1ab56c42295e12d5b21d77fe2bf6/?at=releases/16"
+                }
+            },
+            "v1.0.13": {
+                "name": "laravel/nova",
+                "version": "v1.0.13",
+                "version_normalized": "1.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "047f66b055f75e7ec50281fb764bda4ec553d5f1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-047f66b055f75e7ec50281fb764bda4ec553d5f1-zip-b26848.tar",
+                    "reference": "047f66b055f75e7ec50281fb764bda4ec553d5f1",
+                    "shasum": "97aaea324a8997589fb7c10cf6244fa28b20a868"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:08:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/047f66b055f75e7ec50281fb764bda4ec553d5f1/?at=releases/17"
+                }
+            },
+            "v1.0.14": {
+                "name": "laravel/nova",
+                "version": "v1.0.14",
+                "version_normalized": "1.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "0557187be8f25773c22083260f665e13569c2567"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-0557187be8f25773c22083260f665e13569c2567-zip-96d883.tar",
+                    "reference": "0557187be8f25773c22083260f665e13569c2567",
+                    "shasum": "883d51b30392a783687905f4ee00b77c48481a22"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:08:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/0557187be8f25773c22083260f665e13569c2567/?at=releases/18"
+                }
+            },
+            "v1.0.15": {
+                "name": "laravel/nova",
+                "version": "v1.0.15",
+                "version_normalized": "1.0.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "e46dda59e828fb976fd2dfae4fdf0ed434fb5a1e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-e46dda59e828fb976fd2dfae4fdf0ed434fb5a1e-zip-1bce46.tar",
+                    "reference": "e46dda59e828fb976fd2dfae4fdf0ed434fb5a1e",
+                    "shasum": "338247cc7ae5c1075480e274584a5165162a3473"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:09:22+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/e46dda59e828fb976fd2dfae4fdf0ed434fb5a1e/?at=releases/19"
+                }
+            },
+            "v1.0.16": {
+                "name": "laravel/nova",
+                "version": "v1.0.16",
+                "version_normalized": "1.0.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "a1f3f5772c0d2effa4266904311dd8dd21d81466"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-a1f3f5772c0d2effa4266904311dd8dd21d81466-zip-de3c54.tar",
+                    "reference": "a1f3f5772c0d2effa4266904311dd8dd21d81466",
+                    "shasum": "61ddaf5d640016a0370d6d38cc9dff2a5555bed9"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:09:40+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/a1f3f5772c0d2effa4266904311dd8dd21d81466/?at=releases/20"
+                }
+            },
+            "v1.0.17": {
+                "name": "laravel/nova",
+                "version": "v1.0.17",
+                "version_normalized": "1.0.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "679c35bf9802d3997566ac8e6e3edb496d8eaf72"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-679c35bf9802d3997566ac8e6e3edb496d8eaf72-zip-1ed340.tar",
+                    "reference": "679c35bf9802d3997566ac8e6e3edb496d8eaf72",
+                    "shasum": "7e566c3e901494786bf3d63d2d1643038dccf906"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:09:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/679c35bf9802d3997566ac8e6e3edb496d8eaf72/?at=releases/21"
+                }
+            },
+            "v1.0.18": {
+                "name": "laravel/nova",
+                "version": "v1.0.18",
+                "version_normalized": "1.0.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "f6a1d1ddaaadc3080922583fe65d378283814d8f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-f6a1d1ddaaadc3080922583fe65d378283814d8f-zip-668670.tar",
+                    "reference": "f6a1d1ddaaadc3080922583fe65d378283814d8f",
+                    "shasum": "cd21b4bdb49733460bb74c25bddb633133f1eda2"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:10:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/f6a1d1ddaaadc3080922583fe65d378283814d8f/?at=releases/22"
+                }
+            },
+            "v1.0.19": {
+                "name": "laravel/nova",
+                "version": "v1.0.19",
+                "version_normalized": "1.0.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "42b98209f024e1134a0b7e91009700302b996efa"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-42b98209f024e1134a0b7e91009700302b996efa-zip-d87a0c.tar",
+                    "reference": "42b98209f024e1134a0b7e91009700302b996efa",
+                    "shasum": "47693035918f6cb563e7bf32574264a85d480cde"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:10:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/42b98209f024e1134a0b7e91009700302b996efa/?at=releases/23"
+                }
+            },
+            "v1.0.2": {
+                "name": "laravel/nova",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "06a072aec7501d3e5389dbd1d00584b943e49338"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-06a072aec7501d3e5389dbd1d00584b943e49338-zip-9e9c1f.tar",
+                    "reference": "06a072aec7501d3e5389dbd1d00584b943e49338",
+                    "shasum": "bb2337d901d6f91e16a8699a5755f144860af164"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:05:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/06a072aec7501d3e5389dbd1d00584b943e49338/?at=releases/6"
+                }
+            },
+            "v1.0.3": {
+                "name": "laravel/nova",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "fceccaaeb99e86bd2b8b42c913fd731343fbe54c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-fceccaaeb99e86bd2b8b42c913fd731343fbe54c-zip-5664a1.tar",
+                    "reference": "fceccaaeb99e86bd2b8b42c913fd731343fbe54c",
+                    "shasum": "fbd178158c555579d7b616b892a509f1f90d1bbf"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:05:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/fceccaaeb99e86bd2b8b42c913fd731343fbe54c/?at=releases/7"
+                }
+            },
+            "v1.0.4": {
+                "name": "laravel/nova",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "7224b41df7d4f56ca6e99dc695579116ab8b8900"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-7224b41df7d4f56ca6e99dc695579116ab8b8900-zip-63d2f1.tar",
+                    "reference": "7224b41df7d4f56ca6e99dc695579116ab8b8900",
+                    "shasum": "293b54142f6c6c0c8e678c78e19b57b4b5c07533"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:05:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/7224b41df7d4f56ca6e99dc695579116ab8b8900/?at=releases/8"
+                }
+            },
+            "v1.0.5": {
+                "name": "laravel/nova",
+                "version": "v1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "4005bed8403271d56b1f56d66e619568ffcdd8ca"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-4005bed8403271d56b1f56d66e619568ffcdd8ca-zip-61a378.tar",
+                    "reference": "4005bed8403271d56b1f56d66e619568ffcdd8ca",
+                    "shasum": "e1a16335c4809e561ebf873b03b30b0b978a9b26"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:05:50+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/4005bed8403271d56b1f56d66e619568ffcdd8ca/?at=releases/9"
+                }
+            },
+            "v1.0.6": {
+                "name": "laravel/nova",
+                "version": "v1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "04c020d2b28f8c32d76acc00e66fd48c972d3327"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-04c020d2b28f8c32d76acc00e66fd48c972d3327-zip-6efff6.tar",
+                    "reference": "04c020d2b28f8c32d76acc00e66fd48c972d3327",
+                    "shasum": "9e8c12310737e7ba8d3cf4d04a4efa01b8d3d05c"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:06:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/04c020d2b28f8c32d76acc00e66fd48c972d3327/?at=releases/10"
+                }
+            },
+            "v1.0.7": {
+                "name": "laravel/nova",
+                "version": "v1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "f779f00498fd816c8a81f24b5ba7d40f627098cb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-f779f00498fd816c8a81f24b5ba7d40f627098cb-zip-051ca7.tar",
+                    "reference": "f779f00498fd816c8a81f24b5ba7d40f627098cb",
+                    "shasum": "1d185011043c4d0fecfdfc2ff9fbf1c86291f7a4"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:06:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/f779f00498fd816c8a81f24b5ba7d40f627098cb/?at=releases/11"
+                }
+            },
+            "v1.0.8": {
+                "name": "laravel/nova",
+                "version": "v1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "151ddf67e2566588eabb541c33b0003c4dadc951"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-151ddf67e2566588eabb541c33b0003c4dadc951-zip-970cbf.tar",
+                    "reference": "151ddf67e2566588eabb541c33b0003c4dadc951",
+                    "shasum": "3552e02800ee4f9fea4a3da956fda560d12be700"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:06:37+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/151ddf67e2566588eabb541c33b0003c4dadc951/?at=releases/12"
+                }
+            },
+            "v1.0.9": {
+                "name": "laravel/nova",
+                "version": "v1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "c59fb602a5ce52c8530e8ad433a19dac76d4fda9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-c59fb602a5ce52c8530e8ad433a19dac76d4fda9-zip-db6503.tar",
+                    "reference": "c59fb602a5ce52c8530e8ad433a19dac76d4fda9",
+                    "shasum": "628f785d5c0b9f31f8976ae7d049c69fa98aa1e1"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:06:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/c59fb602a5ce52c8530e8ad433a19dac76d4fda9/?at=releases/13"
+                }
+            },
+            "v1.1.0": {
+                "name": "laravel/nova",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "666c43b8b63025873ff487a2424f519643fb9bfa"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-666c43b8b63025873ff487a2424f519643fb9bfa-zip-654fcf.tar",
+                    "reference": "666c43b8b63025873ff487a2424f519643fb9bfa",
+                    "shasum": "78c136d878ee99accb99098eae8517d9eb357fcc"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:10:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/666c43b8b63025873ff487a2424f519643fb9bfa/?at=releases/24"
+                }
+            },
+            "v1.1.1": {
+                "name": "laravel/nova",
+                "version": "v1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "731e029f55b440a146ef7d1891f2438531ad75b8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-731e029f55b440a146ef7d1891f2438531ad75b8-zip-ab26e7.tar",
+                    "reference": "731e029f55b440a146ef7d1891f2438531ad75b8",
+                    "shasum": "1d78565b9ca380eb8abc4ecdf2d3b5b1fa01cf8b"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:11:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/731e029f55b440a146ef7d1891f2438531ad75b8/?at=releases/25"
+                }
+            },
+            "v1.1.2": {
+                "name": "laravel/nova",
+                "version": "v1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "0560bf0f71a8af335d666c630be3ea39578abb48"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-0560bf0f71a8af335d666c630be3ea39578abb48-zip-619f08.tar",
+                    "reference": "0560bf0f71a8af335d666c630be3ea39578abb48",
+                    "shasum": "11bd56248d3248359395159544ab5786e9f43c82"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:11:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/0560bf0f71a8af335d666c630be3ea39578abb48/?at=releases/26"
+                }
+            },
+            "v1.1.3": {
+                "name": "laravel/nova",
+                "version": "v1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "d308bdc8b963acbc0026111da91c5081cc8f100d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-d308bdc8b963acbc0026111da91c5081cc8f100d-zip-df3651.tar",
+                    "reference": "d308bdc8b963acbc0026111da91c5081cc8f100d",
+                    "shasum": "84b8c26c404dd7a0da50d6d12340ecfee85aa513"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:11:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/d308bdc8b963acbc0026111da91c5081cc8f100d/?at=releases/27"
+                }
+            },
+            "v1.1.4": {
+                "name": "laravel/nova",
+                "version": "v1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "b8f00ae8138ac680849a1b5468ac42cb2e0d19c4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-b8f00ae8138ac680849a1b5468ac42cb2e0d19c4-zip-486c14.tar",
+                    "reference": "b8f00ae8138ac680849a1b5468ac42cb2e0d19c4",
+                    "shasum": "c1254eaef39ebe9586fb0f1eb037aac240605f7a"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:11:52+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/b8f00ae8138ac680849a1b5468ac42cb2e0d19c4/?at=releases/28"
+                }
+            },
+            "v1.1.5": {
+                "name": "laravel/nova",
+                "version": "v1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "407d8a48c6cf97244489d7416fc6c09aa64387f9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-407d8a48c6cf97244489d7416fc6c09aa64387f9-zip-7b526a.tar",
+                    "reference": "407d8a48c6cf97244489d7416fc6c09aa64387f9",
+                    "shasum": "b11bcd23e15ff7c81965d9866618d333d926c3bf"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:12:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/407d8a48c6cf97244489d7416fc6c09aa64387f9/?at=releases/29"
+                }
+            },
+            "v1.1.6": {
+                "name": "laravel/nova",
+                "version": "v1.1.6",
+                "version_normalized": "1.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "3f4d785e7d7ec1f611ccb40b2105239efe658f97"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-3f4d785e7d7ec1f611ccb40b2105239efe658f97-zip-e5a1d1.tar",
+                    "reference": "3f4d785e7d7ec1f611ccb40b2105239efe658f97",
+                    "shasum": "a8eaa7fcbebab200f8e012a41ce6015aca541269"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:12:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/3f4d785e7d7ec1f611ccb40b2105239efe658f97/?at=releases/30"
+                }
+            },
+            "v1.1.7": {
+                "name": "laravel/nova",
+                "version": "v1.1.7",
+                "version_normalized": "1.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "58503695c9a0f705bec20bfa97a0d326b4dba1e7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-58503695c9a0f705bec20bfa97a0d326b4dba1e7-zip-197922.tar",
+                    "reference": "58503695c9a0f705bec20bfa97a0d326b4dba1e7",
+                    "shasum": "2821810147d20688a80b15cac5390a2572429148"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:13:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/58503695c9a0f705bec20bfa97a0d326b4dba1e7/?at=releases/31"
+                }
+            },
+            "v1.1.8": {
+                "name": "laravel/nova",
+                "version": "v1.1.8",
+                "version_normalized": "1.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "9594d60137ec311346b51d606111194c9febf75b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-9594d60137ec311346b51d606111194c9febf75b-zip-c7e873.tar",
+                    "reference": "9594d60137ec311346b51d606111194c9febf75b",
+                    "shasum": "32983105c3a713d1d11d12105aae3eb5837f5b9d"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:13:23+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/9594d60137ec311346b51d606111194c9febf75b/?at=releases/32"
+                }
+            },
+            "v1.1.9": {
+                "name": "laravel/nova",
+                "version": "v1.1.9",
+                "version_normalized": "1.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "f6dc1cd269861449d964e55487044e84ae30b115"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-f6dc1cd269861449d964e55487044e84ae30b115-zip-b2d2de.tar",
+                    "reference": "f6dc1cd269861449d964e55487044e84ae30b115",
+                    "shasum": "173deeceec81027bb7e3a2bb7c9312ee2f782095"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:13:42+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/f6dc1cd269861449d964e55487044e84ae30b115/?at=releases/33"
+                }
+            },
+            "v1.2.0": {
+                "name": "laravel/nova",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "27a6e147deba995f19b427646d5ffd397519ef7b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-27a6e147deba995f19b427646d5ffd397519ef7b-zip-128589.tar",
+                    "reference": "27a6e147deba995f19b427646d5ffd397519ef7b",
+                    "shasum": "7d4bc737af5640ea1bdfdc2aa873dc9b47f45005"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:14:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/27a6e147deba995f19b427646d5ffd397519ef7b/?at=releases/34"
+                }
+            },
+            "v1.2.1": {
+                "name": "laravel/nova",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "b76d4e94a5ef25b52936a550389f76463f0ff12e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-b76d4e94a5ef25b52936a550389f76463f0ff12e-zip-d2928b.tar",
+                    "reference": "b76d4e94a5ef25b52936a550389f76463f0ff12e",
+                    "shasum": "c4eb44f2ac235c4aa766b5b909ea24140619ad27"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:14:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/b76d4e94a5ef25b52936a550389f76463f0ff12e/?at=releases/35"
+                }
+            },
+            "v1.3.0": {
+                "name": "laravel/nova",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "e5f50efa5682c7af363fe23eb873c7aadf799546"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-e5f50efa5682c7af363fe23eb873c7aadf799546-zip-b56880.tar",
+                    "reference": "e5f50efa5682c7af363fe23eb873c7aadf799546",
+                    "shasum": "1438c4d2204c6c9ddba9678e827cc8429e7bd512"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-09T13:14:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/e5f50efa5682c7af363fe23eb873c7aadf799546/?at=releases/36"
+                }
+            },
+            "v1.3.1": {
+                "name": "laravel/nova",
+                "version": "v1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "52da9938ab1b2b3b08462858be55a24cef35d8de"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-52da9938ab1b2b3b08462858be55a24cef35d8de-zip-2f1148.tar",
+                    "reference": "52da9938ab1b2b3b08462858be55a24cef35d8de",
+                    "shasum": "220944c7d692a997a4e1703f6f98212610c89a69"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-24T11:54:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/52da9938ab1b2b3b08462858be55a24cef35d8de/?at=releases/37"
+                }
+            },
+            "v1.3.2": {
+                "name": "laravel/nova",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "0b4bd0d772f6d23c6c87c3bdeed244788855c548"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-0b4bd0d772f6d23c6c87c3bdeed244788855c548-zip-f7ea35.tar",
+                    "reference": "0b4bd0d772f6d23c6c87c3bdeed244788855c548",
+                    "shasum": "8f65c54f580267c8a861b469393815c2d5af3b09"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-03-13T10:10:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/0b4bd0d772f6d23c6c87c3bdeed244788855c548/?at=releases/38"
+                }
+            },
+            "v2.0.0": {
+                "name": "laravel/nova",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "ebddc9230765bf0e9fdbc711321124c7f54a67e8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-ebddc9230765bf0e9fdbc711321124c7f54a67e8-zip-5aa5f6.tar",
+                    "reference": "ebddc9230765bf0e9fdbc711321124c7f54a67e8",
+                    "shasum": "d9dcb9e4573d932c13c6bd7a65cd243a9d5998d5"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.8.*",
+                    "orchestra/testbench": "3.8.*",
+                    "phpunit/phpunit": "^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-03-13T10:10:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/ebddc9230765bf0e9fdbc711321124c7f54a67e8/?at=releases/39"
+                }
+            },
+            "v2.0.1": {
+                "name": "laravel/nova",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "3cc7319d668a94056baadfe841cf2356ee42c802"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-3cc7319d668a94056baadfe841cf2356ee42c802-zip-6eca8a.tar",
+                    "reference": "3cc7319d668a94056baadfe841cf2356ee42c802",
+                    "shasum": "de2f9adf2759e6e756a1c45f005304f34d8ed8b4"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-04-02T05:27:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/3cc7319d668a94056baadfe841cf2356ee42c802/?at=releases/40"
+                }
+            },
+            "dev-master": {
+                "name": "laravel/nova",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/laravel-nova.git",
+                    "reference": "3cc7319d668a94056baadfe841cf2356ee42c802"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/laravel/nova/laravel-nova-3cc7319d668a94056baadfe841cf2356ee42c802-zip-6eca8a.tar",
+                    "reference": "3cc7319d668a94056baadfe841cf2356ee42c802",
+                    "shasum": "de2f9adf2759e6e756a1c45f005304f34d8ed8b4"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-04-02T05:27:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "homepage": "https://bitbucket.org/viablelabs/laravel-nova",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/laravel-nova/src/3cc7319d668a94056baadfe841cf2356ee42c802/?at=releases/40"
+                }
+            }
+        },
+        "viable/apigenerator": {
+            "v1.0.0": {
+                "name": "viable/apigenerator",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlgenerator-api.git",
+                    "reference": "69ae66c67a3955ba047eca6aad822aefd93acead"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/apigenerator/viable-apigenerator-69ae66c67a3955ba047eca6aad822aefd93acead-zip-9a114f.tar",
+                    "reference": "69ae66c67a3955ba047eca6aad822aefd93acead",
+                    "shasum": "bf0c6e2ad5e93da574ae50dd818982543242766c"
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.7",
+                    "illuminate/console": "^5.5",
+                    "illuminate/filesystem": "^5.5",
+                    "php": ">=7.0",
+                    "symfony/yaml": "^3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=5.4.3",
+                    "squizlabs/php_codesniffer": "^2.3"
+                },
+                "time": "2017-10-09T09:36:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Apigenerator\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Iulian Bilcu",
+                        "email": "iulian@viable.is"
+                    }
+                ],
+                "description": "Api generator for Laravel",
+                "homepage": "https://bitbucket.org/viablelabs/vlgenerator-api",
+                "keywords": [
+                    "api",
+                    "generator",
+                    "laravel",
+                    "rest",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlgenerator-api/src/69ae66c67a3955ba047eca6aad822aefd93acead/?at=v1.0.0"
+                }
+            },
+            "dev-master": {
+                "name": "viable/apigenerator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlgenerator-api.git",
+                    "reference": "e4fd6854cddca871de6a1a93714598031abe1b37"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/apigenerator/viable-apigenerator-e4fd6854cddca871de6a1a93714598031abe1b37-zip-30d91b.tar",
+                    "reference": "e4fd6854cddca871de6a1a93714598031abe1b37",
+                    "shasum": "6d90ca4b3c71c87a00dddd977dd23d758810c3c7"
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.7",
+                    "illuminate/console": "^5.5",
+                    "illuminate/filesystem": "^5.5",
+                    "php": ">=7.0",
+                    "symfony/yaml": "^3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=5.4.3",
+                    "squizlabs/php_codesniffer": "^2.3"
+                },
+                "time": "2017-12-28T20:41:24+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Apigenerator\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Iulian Bilcu",
+                        "email": "iulian@viable.is"
+                    }
+                ],
+                "description": "Api generator for Laravel",
+                "homepage": "https://bitbucket.org/viablelabs/vlgenerator-api",
+                "keywords": [
+                    "api",
+                    "generator",
+                    "laravel",
+                    "rest",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlgenerator-api/src/e4fd6854cddca871de6a1a93714598031abe1b37/?at=master"
+                }
+            },
+            "dev-develop": {
+                "name": "viable/apigenerator",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlgenerator-api.git",
+                    "reference": "69ae66c67a3955ba047eca6aad822aefd93acead"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/apigenerator/viable-apigenerator-69ae66c67a3955ba047eca6aad822aefd93acead-zip-9a114f.tar",
+                    "reference": "69ae66c67a3955ba047eca6aad822aefd93acead",
+                    "shasum": "bf0c6e2ad5e93da574ae50dd818982543242766c"
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.7",
+                    "illuminate/console": "^5.5",
+                    "illuminate/filesystem": "^5.5",
+                    "php": ">=7.0",
+                    "symfony/yaml": "^3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=5.4.3",
+                    "squizlabs/php_codesniffer": "^2.3"
+                },
+                "time": "2017-10-09T09:36:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Apigenerator\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Iulian Bilcu",
+                        "email": "iulian@viable.is"
+                    }
+                ],
+                "description": "Api generator for Laravel",
+                "homepage": "https://bitbucket.org/viablelabs/vlgenerator-api",
+                "keywords": [
+                    "api",
+                    "generator",
+                    "laravel",
+                    "rest",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlgenerator-api/src/69ae66c67a3955ba047eca6aad822aefd93acead/?at=v1.0.0"
+                }
+            },
+            "dev-generator-new": {
+                "name": "viable/apigenerator",
+                "version": "dev-generator-new",
+                "version_normalized": "dev-generator-new",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlgenerator-api.git",
+                    "reference": "63ff7b29f6f1c530860533be6d5c048ffe5cd1a7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/apigenerator/viable-apigenerator-63ff7b29f6f1c530860533be6d5c048ffe5cd1a7-zip-8c2c87.tar",
+                    "reference": "63ff7b29f6f1c530860533be6d5c048ffe5cd1a7",
+                    "shasum": "d487c40345a67c19aef2a6eec6e79dfd155b2776"
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.7",
+                    "illuminate/console": "^5.5",
+                    "illuminate/filesystem": "^5.5",
+                    "krlove/eloquent-model-generator": "^1.2",
+                    "php": ">=7.0",
+                    "symfony/yaml": "^3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=5.4.3",
+                    "squizlabs/php_codesniffer": "^2.3"
+                },
+                "time": "2018-02-06T15:32:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Apigenerator\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Iulian Bilcu",
+                        "email": "iulian@viable.is"
+                    }
+                ],
+                "description": "Api generator for Laravel",
+                "homepage": "https://bitbucket.org/viablelabs/vlgenerator-api",
+                "keywords": [
+                    "api",
+                    "generator",
+                    "laravel",
+                    "rest",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlgenerator-api/src/63ff7b29f6f1c530860533be6d5c048ffe5cd1a7/?at=generator-new"
+                }
+            }
+        },
+        "viable/authentication": {
+            "v1.0.0": {
+                "name": "viable/authentication",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlauthentication-api.git",
+                    "reference": "6a26c3a6e30c51a595413453395bde7852a4a50c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/authentication/viable-authentication-6a26c3a6e30c51a595413453395bde7852a4a50c-zip-29f565.tar",
+                    "reference": "6a26c3a6e30c51a595413453395bde7852a4a50c",
+                    "shasum": "d6607ff51039daa669236ca7ef852d3a14101dce"
+                },
+                "require": {
+                    "laravel/passport": "^4.0",
+                    "laravel/socialite": "^3.0"
+                },
+                "time": "2018-03-13T10:42:39+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Viable\\Authentication\\AuthenticationServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Authentication\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Catalin Izina",
+                        "email": "catalin.izina@viable.is"
+                    }
+                ],
+                "description": "Viable Labs API Authentication module",
+                "homepage": "https://bitbucket.org/viablelabs/vlauthentication-api",
+                "keywords": [
+                    "authentication",
+                    "facebook",
+                    "google",
+                    "laravel",
+                    "login",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlauthentication-api/src/6a26c3a6e30c51a595413453395bde7852a4a50c/?at=master"
+                }
+            },
+            "dev-master": {
+                "name": "viable/authentication",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlauthentication-api.git",
+                    "reference": "6a26c3a6e30c51a595413453395bde7852a4a50c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/authentication/viable-authentication-6a26c3a6e30c51a595413453395bde7852a4a50c-zip-29f565.tar",
+                    "reference": "6a26c3a6e30c51a595413453395bde7852a4a50c",
+                    "shasum": "d6607ff51039daa669236ca7ef852d3a14101dce"
+                },
+                "require": {
+                    "laravel/passport": "^4.0",
+                    "laravel/socialite": "^3.0"
+                },
+                "time": "2018-03-13T10:42:39+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Viable\\Authentication\\AuthenticationServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Authentication\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Catalin Izina",
+                        "email": "catalin.izina@viable.is"
+                    }
+                ],
+                "description": "Viable Labs API Authentication module",
+                "homepage": "https://bitbucket.org/viablelabs/vlauthentication-api",
+                "keywords": [
+                    "authentication",
+                    "facebook",
+                    "google",
+                    "laravel",
+                    "login",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlauthentication-api/src/6a26c3a6e30c51a595413453395bde7852a4a50c/?at=master"
+                }
+            }
+        },
+        "viable/feedback": {
+            "0.0.1": {
+                "name": "viable/feedback",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlfeedback-api.git",
+                    "reference": "de9f5a670d70f242e2a46873696dda778e726b14"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/feedback/viable-feedback-de9f5a670d70f242e2a46873696dda778e726b14-zip-55f2dc.tar",
+                    "reference": "de9f5a670d70f242e2a46873696dda778e726b14",
+                    "shasum": "aa662e5ed2b15f52598c699cdb9d86914b57c5b5"
+                },
+                "time": "2017-09-29T06:28:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Feedback\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Anand",
+                        "email": "anand@viable.is"
+                    }
+                ],
+                "description": "Basic feedback API for Viable Projects",
+                "homepage": "https://bitbucket.org/viablelabs/vlfeedback-api",
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlfeedback-api/src/de9f5a670d70f242e2a46873696dda778e726b14/?at=0.0.1"
+                }
+            },
+            "0.0.2": {
+                "name": "viable/feedback",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlfeedback-api.git",
+                    "reference": "d82a50787c019ebb1156a8566e9d5699ee747195"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/feedback/viable-feedback-d82a50787c019ebb1156a8566e9d5699ee747195-zip-6632dd.tar",
+                    "reference": "d82a50787c019ebb1156a8566e9d5699ee747195",
+                    "shasum": "afb0011c5ce77fc23474fc49367ca763c72d7f6c"
+                },
+                "require": {
+                    "anand/demo": "*"
+                },
+                "time": "2017-10-02T14:18:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Feedback\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Anand",
+                        "email": "anand@viable.is"
+                    }
+                ],
+                "description": "Basic feedback API for Viable Projects",
+                "homepage": "https://bitbucket.org/viablelabs/vlfeedback-api",
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlfeedback-api/src/d82a50787c019ebb1156a8566e9d5699ee747195/?at=0.0.2"
+                }
+            },
+            "dev-master": {
+                "name": "viable/feedback",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlfeedback-api.git",
+                    "reference": "ee65ac786d3b61a512a0541cbfd319f31c045c8d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/feedback/viable-feedback-ee65ac786d3b61a512a0541cbfd319f31c045c8d-zip-feadb7.tar",
+                    "reference": "ee65ac786d3b61a512a0541cbfd319f31c045c8d",
+                    "shasum": "2066d9519ad7cfb65dce88bedda233e9a81f8611"
+                },
+                "time": "2017-10-13T06:34:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Feedback\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Anand",
+                        "email": "anand@viable.is"
+                    }
+                ],
+                "description": "Basic feedback API for Viable Projects",
+                "homepage": "https://bitbucket.org/viablelabs/vlfeedback-api",
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlfeedback-api/src/ee65ac786d3b61a512a0541cbfd319f31c045c8d/?at=master"
+                }
+            }
+        },
+        "viable/search": {
+            "dev-master": {
+                "name": "viable/search",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/viablelabs/vlsearch-api.git",
+                    "reference": "e89fd1ab63416a5cbd8e7b36612c61234cb506cb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://satis.viable.is/dist/viable/search/viable-search-e89fd1ab63416a5cbd8e7b36612c61234cb506cb-zip-0aceb8.tar",
+                    "reference": "e89fd1ab63416a5cbd8e7b36612c61234cb506cb",
+                    "shasum": "5541a05874b59f2a4c6f8e6287ed841f776bb370"
+                },
+                "require": {
+                    "illuminate/database": "*",
+                    "illuminate/support": "*"
+                },
+                "require-dev": {
+                    "codeception/codeception": "2.0.*",
+                    "codeception/specify": "*",
+                    "mockery/mockery": "*"
+                },
+                "time": "2017-10-10T13:01:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Viable\\Search\\": "src",
+                        "Illuminate\\": "vendor/laravel/framework/src/Illuminate/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Viable\\Search\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Anand Patel",
+                        "email": "anand@viable.is"
+                    }
+                ],
+                "description": "Add Search, sort and select Trait to Model",
+                "homepage": "https://bitbucket.org/viablelabs/vlsearch-api",
+                "keywords": [
+                    "laravel",
+                    "searchable",
+                    "selectable",
+                    "sortable",
+                    "viable"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/viablelabs/vlsearch-api/src/e89fd1ab63416a5cbd8e7b36612c61234cb506cb/?at=master"
+                }
+            }
+        }
+    }
+}
